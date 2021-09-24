@@ -1,0 +1,31 @@
+.card{
+    height: 420px;
+    width:280px ;
+    border: solid 1px grey;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.card-photo{
+    width:80%;
+    display: block;
+    margin: auto;
+}
+.card-price,
+.card-name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+}
+.card-buy{
+    display: block;
+    color: black;
+    height: 40px;
+    width: 80%;
+    background-color: orange;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    line-height: 45px;
+    margin-top: 19px;
+}
