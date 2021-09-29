@@ -2,7 +2,6 @@
     height: 420px;
     width:280px ;
     border: solid 1px grey;
-    padding-left: 20px;
     box-sizing: border-box;
 }
 .card-photo{
@@ -15,17 +14,20 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    margin: 0;
+    margin: 20px;
 }
 .card-buy{
     display: block;
     color: black;
     height: 40px;
     width: 80%;
-    background-color: orange;
+    background-color: gold;
     margin: auto;
     text-decoration: none;
     text-align: center;
     line-height: 45px;
     margin-top: 19px;
+}
+.card-buy:hover{
+    background-color: orange;
 }
